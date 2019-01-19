@@ -1,10 +1,6 @@
 $(document).ready(function() {
   $("#track-form").submit(function(event) {
     event.preventDefault();
-     $(".clickable").click(function(){
-       $("#hide-display").toggle();
-
-     })
 
     var nameInput = $("input#name").val();
     var reasonInput = $("select#reason").val();
