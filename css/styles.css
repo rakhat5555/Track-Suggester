@@ -1,3 +1,13 @@
+
+.show-test {
+  display: none;
+}
+.show-result {
+  display: none;
+}
+
+
+
 #csharp {
   display: none;
 }
@@ -13,6 +23,6 @@
 #css{
   display: none;
 }
-.text {
-  float center
+.grey-background {
+  background-color: grey;
 }
